@@ -1,8 +1,10 @@
 #include <iostream>
 #include "List.h"
+#include "Stack.h"
 
 int main()
 {
+    /*
     LinkedList<int>* List1; 
     List1 = new LinkedList<int>();
     List1->add(1);
@@ -27,6 +29,21 @@ int main()
     std::cout << "Index of 10: " << List1->index_of(10) << '\n';
     std::cout << "Item at 4: " << List1->item_at(4);
     delete List1;
-    std::cin.get();
+    std::cout << "let's stack!\n";
+    Stack<int>* Stack1 = new Stack<int>;
+    Stack1->push(1); 
+    Stack1->push(2);
+    Stack1->push(3);
+    Stack1->push(4);
+    std::cout << "top: " << Stack1->top() << '\n';
+    std::cout << "Pop 1 element\ntop: ";
+    Stack1->pop();
+    std::cout << Stack1->top() << '\n';
+    std::cout << "add 1 new element\n";
+    Stack1->push(10);
+    std::cout << "Let's see all stack:\n";
+    Stack1->print();    
+*/
+    
     return 0;
 }
