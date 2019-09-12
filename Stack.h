@@ -7,6 +7,14 @@ private:
     Node<T>* last = nullptr;
     int size = 0;
 public:
+    bool empty()
+    {
+        return size == 0?1:0
+    }
+    int getsize()
+    {
+        return size;
+    }
     void push(T data)
     {
         Node<T>* node = new Node<T>;
@@ -25,6 +33,7 @@ public:
     void pop()
     {
         last = last->next;
+        size--;
     }
     T top()
     {        
