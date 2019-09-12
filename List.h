@@ -1,12 +1,5 @@
-#include <iostream>
-
-template<typename T>
-struct Node
-{
-    T data;
-    Node* next;
-};
-
+#include<iostream>
+#include "Node.h"
 template<typename T>
 struct LinkedList
 {
